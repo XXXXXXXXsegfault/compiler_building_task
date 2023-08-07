@@ -1,0 +1,15 @@
+Compiler Building Task (For x86_64 Linux)
+
+Your task is to build a cross-compiler that runs on x86_64
+Windows and generates ARM64 Linux executables.
+
+* Contents *
+
+lib_x86_64_linux_source.cpio,
+lib_x86_64_windows_source.cpio -- libraries used by compilers
+
+scc_arm64_linux_source.cpio,
+scc_x86_64_windows_source.cpio -- source of compilers
+
+scc_x86_64_linux_bin.cpio -- native compilers (executable
+binaries) for x86_64 Linux
